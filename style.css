@@ -1,0 +1,28 @@
+#box{
+    border: 2px solid black;
+}
+.tile{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.tile:nth-child(even){
+    background-color: grey;
+}
+
+.counter{
+    text-align: center;
+    height: 50px;
+    margin: 0;
+    line-height: 50px;
+}
+
+.wall{
+    background-color: black !important;
+}
+.start{
+    background-color: blue;
+}
+.end{
+    background-color: greenyellow;
+}
